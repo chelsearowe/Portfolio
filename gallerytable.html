@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>clickable gallery</title>
+    <style>
+      div.maingallery {
+        display: flex;
+        justify-content: center;
+      }
+     
+     
+
+      body {
+        text-align: center;
+        background-color: fuchsia;
+      }
+
+      div.gallery {
+        margin: 5px;
+        border: 4px solid rgb(0, 255, 55);
+        float: left;
+        width: 180px;
+      }
+      div.gallery:hover {
+        border: 10px solid rgb(47, 0, 255);
+      }
+      div.gallery img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        opacity: 75%;
+      }
+      div.gallery img:hover {
+        opacity: 100%;
+      }
+
+      a {
+        text-decoration: none;
+        font-style: italic;
+        color: yellowgreen;
+        font-family: helvetica;
+      }
+      a:hover {
+        color: rgb(0, 0, 255);
+      }
+    </style>
+  </head>
+  <body>
+    <a class="website" target="_blank" href="https://www.chelseamrowe.com/">
+      <h1><strong>CHELSEA ROWE</strong></h1>
+      <a href="images/Artist Resume 2022.pdf">
+        <h3>CV</h3>
+      </a>
+    </a>
+    <div class="maingallery">
+      <div class="gallery">
+        <a target="_blank" href="images/hand1.jpg">
+          <img
+            src="images/hand1.jpg"
+            alt="Hand 1"
+            width="200px"
+            height="200px"
+          />
+        </a>
+      </div>
+      <div class="gallery">
+        <a target="_blank" href="images/hand2.jpg">
+          <img
+            src="images/hand2.jpg"
+            alt="Hand 2"
+            width="200px"
+            height="200px"
+          />
+        </a>
+      </div>
+      <div class="gallery">
+        <a target="_blank" href="images/hand3.jpg">
+          <img
+            src="images/hand3.jpg"
+            alt="Hand 3"
+            width="200px"
+            height="200px"
+          />
+        </a>
+      </div>
+      <div class="gallery">
+        <a target="_blank" href="images/hand4.jpg">
+          <img
+            src="images/hand4.jpg"
+            alt="Hand 4"
+            width="200px"
+            height="200px"
+          />
+        </a>
+      </div>
+      <div class="gallery">
+        <a target="_blank" href="videos/BlueFoot.mp4">
+          <img src="images/bluefoot.jpg" alt="Blue Foot" />
+        </a>
+      </div>
+      <div class="gallery">
+        <a target="_blank" href="gallery.html">
+          <img src="images/hand5.jpg" alt="hand 5" />
+        </a>
+      </div>
+    </div>
+  </body>
+</html>
